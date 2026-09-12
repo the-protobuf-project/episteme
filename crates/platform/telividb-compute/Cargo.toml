@@ -22,7 +22,7 @@ telividb-core.workspace = true
 [build-dependencies]
 # Generates the raw declarations from ggml's own headers, so the bindings
 # cannot drift from the C API the way a hand-written one would.
-bindgen = "0.72"
+bindgen = "0.73"
 # Drives ggml's CMake build.
 cmake = "0.1"
 
